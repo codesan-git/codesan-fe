@@ -1,5 +1,5 @@
 import AppBar from "@/components/AppBar";
-import "./globals.css";
+import "@/styles/globals.css";
 import Providers from "@/components/Providers";
 
 export const metadata = {
@@ -13,7 +13,7 @@ interface Props {
 
 export default function RootLayout(props: Props) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-[#f8f7f4] overflow-x-hidden">
       <body>
         <Providers>
           <AppBar />
