@@ -70,7 +70,7 @@ const SignInButton = (props: Props) => {
           </DialogFooter> */}
         </DialogContent>
       </Dialog>
-      <Link href={"/signIn"} className='rounded-full'>
+      <Link href={"/signUp"} className='rounded-full'>
         Hire Creative
       </Link>
     </Fragment>
